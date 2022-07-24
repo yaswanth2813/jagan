@@ -1,0 +1,78 @@
+body,html{
+	height: 100%; 
+  width: 100%;
+}
+ body{
+  
+  background: url(https://cdn.sharechat.com/2d436b0d-3ffa-42c5-91fb-792e62fe8e38-92a85524-d0d7-4526-bad6-3194564bfb3e.jpeg) no-repeat center center fixed; 
+  background-size: cover;
+
+}
+
+h1{ 
+	color: darkblue;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background-image: url(https://ysrcpleaders.files.wordpress.com/2012/10/anim_29c75ee3-ecc5-cd04-f1cb-1f5c136a3cd4.gif?w=292&zoom=2);
+    animation: effect 2s linear infinite;
+	text-align: center;
+	margin: 20px 300px;
+	font-size: 5em;
+	font-family: fantasy;
+	border-bottom: 5px solid white ;
+	border-left: 5px  solid rgb(0, 0, 300);
+	border-right: 5px  solid rgb(0, 300, 0);
+	border-top: 5px solid white;
+	border-radius: 400px;
+    border-right-width: 200px;
+    border-left-width: 200px;
+	width: 700px;
+	margin: 300px;
+	box-shadow: 0px 5px 0px 0px white;
+}
+h1{
+	animation: color-change 1s infinite;
+}
+@keyframes color-change{
+	0%{color: blue;}
+	50%{color: white;}
+	100%{color: green;}
+}
+.space{
+	border: 3px solid orangered;
+	width: 1200px;
+	height: 500px;
+	background-image: url(https://pbs.twimg.com/profile_banners/2965511647/1596272576/1500x500);
+	background-size: cover;
+	margin-left: 40px;
+}
+.img2{
+     float:left;
+     
+}
+.img1{
+     float:right;
+}
+img{
+	transition: all 1s;
+}
+img:hover{
+	transform: scale(1.3);
+}
+p{
+	animation: color-change 2s infinite;
+	font-size: 2rem;
+
+
+
+  }
+@keyframes color-change{
+	0%{color: blue;}
+	50%{color: white;}
+	100%{color: green;}
+}
+.btn{
+	font-weight: 700;
+	border-radius: 900px;
+}
+
